@@ -1,0 +1,32 @@
+body { background: transparent url(../img/bg-fist.jpg); height: 100%}
+.container { width: 960px;position: relative;z-index: 2}
+.fist-gif { position: relative;margin:0 auto; width: 365px;top:100px;}
+.fist-gif img { border-radius: 200px; }
+
+.opening { position: relative;
+top: 117px;
+width: 250px;
+margin: 0 auto;}
+
+.video-main .video-container { width: 960px; height: 500px; background: #000;position: relative;top:50px;text-align: center}
+
+.video-list { position: relative; width: 960px;height: 300px;top:50px;overflow: hidden;}
+.video-list .video-item { width: 150px;height: 100%;float:left;margin: 20px;margin-right: 10px; }
+.video-list .video-meta { padding: 5px;margin-top: 15px;}
+.video-list .video-meta h2 { font-size: 16px; margin-top: 0px; line-height: 18px;font-style: italic;}
+.video-list .video-meta h2 a { color:#ffdf00;text-shadow: 2px 1px 0px #000;}
+.video-list .video-meta p { color: #fff;}
+.video-list .video-container { display:block; width: 150px; height: 100px; background: #000 url(../img/play_button.png) no-repeat; background-size: 50px; background-position: center center;box-shadow: 0px 2px 5px #333}
+.video-list .video-scroller { width: 1500px;height: 100%;position: relative;padding:0px 20px; }
+
+.play_overlay { position: absolute;top:25px;background:transparent url(../img/play_button.png) no-repeat; background-size: 50px; background-position: center center;width: 150px; height: 100px;}
+
+.scroller_nav { width: 28px;height:48px;background-image:url(../img/sprite_nav.png);top:50px;z-index: 1000; display:block;}
+.prev { background-position: -28px 0px; position: absolute;left:0px;display: none;}
+.next { background-position: 0px 0px; position: absolute;left:934px;display: none }
+
+.video-bg-1 { background: transparent url(../img/bg-video-1.jpg) no-repeat center center; background-size: 100% 100%;}
+.video-bg-2 { background: transparent url(../img/bg-video-2.jpg) no-repeat center center; background-size: 100%}
+.video-bg-3 { background: transparent url(../img/bg-video-3.jpg) no-repeat center center; background-size: 100%}
+.video-bg-4 { background: transparent url(../img/bg-video-4.jpg) no-repeat center center; background-size: 100%}
+.video-bg-5 { background: transparent url(../img/bg-video-5.jpg) no-repeat center center; background-size: 100%}
